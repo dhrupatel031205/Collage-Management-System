@@ -24,7 +24,7 @@ export default function Carousel() {
               src="https://picsum.photos/301/170"
               className="d-block w-100 "
               alt="..."
-            />
+            />    
           </div>
           <div className="carousel-item">
             <img
