@@ -11,35 +11,24 @@ export default function Carousel() {
       >
         <div className="carousel-inner">
           <div classNameName="carousel-caption !important">
-            <form className="d-flex">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
           <div className="carousel-item active">
             <img
-              src="https://picsum.photos/300/70"
+              src="https://picsum.photos/300/170"
               className="d-block w-100 "
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://picsum.photos/301/70"
+              src="https://picsum.photos/301/170"
               className="d-block w-100 "
               alt="..."
             />
           </div>
           <div className="carousel-item">
             <img
-              src="https://picsum.photos/299/70"
+              src="https://picsum.photos/299/170"
               className="d-block w-100"
               alt="..."
             />
