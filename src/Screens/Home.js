@@ -66,6 +66,7 @@ export default function Home() {
                             imgSrc={filteredItem.img}
                             description = {filteredItem.description}
                             options={filteredItem.options[0]}
+                            prize={filteredItem.options[1]}
                           />
                         </div>
                       ))}

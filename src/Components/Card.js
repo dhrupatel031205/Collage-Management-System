@@ -32,7 +32,7 @@ export default function Card(props) {
                 })}
               </select>
 
-              <div className="fs-5 d-inline">Total Price</div>
+              <div className="fs-5 d-inline">Total Prize </div>
             </div>
           </div>
         </div>

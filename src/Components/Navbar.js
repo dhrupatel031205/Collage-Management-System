@@ -7,7 +7,7 @@ export default function Navbar() {
       <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-success">
           <div className="container-fluid">
-            <Link className="navbar-brand fs-2 fst-italic" to="/">
+            <Link className="navbar-brand fs-2 fst-italic dfood" to="/">
               DhruvFood
             </Link>
             <button
@@ -24,7 +24,7 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/login">
+                  <Link className="nav-link" to="/">
                     Signout
                   </Link>
                 </li>

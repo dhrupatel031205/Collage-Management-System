@@ -50,7 +50,7 @@ export default function Signup() {
         alert(data.error); // Show error message returned by backend
       } else {
         alert("User created successfully!");
-        navigate("/home");
+        navigate("/");
       }
     } catch (error) {
       alert("An error occurred. Please try again.");
@@ -121,7 +121,7 @@ export default function Signup() {
           >
             Submit
           </button>
-          <Link to="/login" className="m-3 btn btn-danger">
+          <Link to="/" className="m-3 btn btn-danger">
             Already a User
           </Link>
         </form>
